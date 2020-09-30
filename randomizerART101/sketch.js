@@ -11,11 +11,19 @@ let boxdog = [{
   color: "blue"
 }];
 
+let randomIndex;
+
 function setup() {
   createCanvas(600, 600);
   background(200);
 
-  console.log(boxdog[(random(3)]);
+  // randomIndex = int(random(boxdog.length));
+  // //console.log(boxdog[randomIndex].name);
+  // text(boxdog[randomIndex].name, 50, 50);
+  // boxdog.splice(randomIndex, 1);
+  // //console.log(boxdog);
+
+
 
   //console.log(boxdog[2].color);
 
@@ -40,6 +48,17 @@ function setup() {
 }
 
 function draw() {
+
+
+}
+
+function mousePressed(){
+  background(random(200, 250));
+
+  randomIndex = int(random(boxdog.length));
+  text(boxdog[randomIndex].name, 50, 50);
+  boxdog.splice(randomIndex, 1);
+
 
 
 }
