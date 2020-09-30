@@ -15,7 +15,9 @@ function setup() {
   createCanvas(600, 600);
   background(200);
 
-console.log(boxdog[0]);
+  console.log(boxdog[(random(3)]);
+
+  //console.log(boxdog[2].color);
 
   // console.log("initial array is ");
   // console.log(boxdog);
