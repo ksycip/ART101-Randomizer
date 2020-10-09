@@ -24,7 +24,7 @@ function preload() {
 
   for (let i = 0; i <= 5; i++) {
     //gradient[i] = loadImage("assets/gradient_" + i + ".JPG")
-    gradient[i] = loadImage(`assets/gradient_${i}.JPG`);
+    gradient[i] = loadImage(`assets/gradient_${i}.jpg`);
   }
 
 }
